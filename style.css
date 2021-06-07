@@ -1,0 +1,78 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+  background-position: right 40vw bottom 66vh, left 40vw top 55vh;
+  background-size: 160%, 160%;
+  background-repeat: no-repeat, no-repeat;
+  font-family: 'kumbh sans';
+  color: hsl(229, 23%, 23%);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 25%);
+  grid-template-areas: '. . .' 'victor victor victor' 'name name name' 'l1 l2 l3';
+  background-color: white;
+  border-radius: 5%;
+  background-image: url(./images/bg-pattern-card.svg);
+  background-position: top;
+  background-repeat: no-repeat, no-repeat;
+  width: 21rem;
+  height: 22rem;
+  text-align: center;
+  gap: 2px;
+  box-shadow: 0 40px 90px -30px hsl(227, 10%, 46%);
+}
+
+img {
+  grid-area: victor;
+  justify-self: center;
+  border: 0.3rem solid white;
+  border-radius: 50%;
+}
+.p1,
+ul {
+  font-size: 18px;
+  text-align: center;
+}
+
+.p1 {
+  font-weight: 700;
+  grid-area: name;
+  margin: 2rem 0 1rem 0;
+}
+
+.l1,
+.l2,
+.l3 {
+  font-weight: 700;
+  padding: 0 20%;
+}
+.l1 {
+  grid-area: l1;
+}
+.l2 {
+  grid-area: l2;
+}
+.l3 {
+  grid-area: l3;
+}
+span {
+  font-size: 12px;
+  font-weight: 200;
+}
+.p1 .age {
+  font-size: 16px;
+}
+
+@media (min-width: 500px) {
+  body {
+    background-position: right 50vw bottom 50vh, left 48vw top 58vh;
+    background-size: 50rem 50rem;
+  }
+}

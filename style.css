@@ -40,7 +40,6 @@ img {
 .p1,
 div {
   font-size: 18px;
-  text-align: center;
 }
 
 .p1 {
@@ -52,8 +51,9 @@ div {
 .d1,
 .d2,
 .d3 {
+  align-self: center;
   font-weight: 700;
-  padding: 0 20%;
+  padding: 0 20px;
 }
 .d1 {
   grid-area: d1;

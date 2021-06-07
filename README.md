@@ -28,7 +28,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [Profile card component solution - GitHub](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://sunil-sharma-999.github.io/Frontend Mentor-Profile-card-component-solution/)
+- Live Site URL: [Profile card component](https://sunil-sharma-999.github.io/Frontend-Mentor-Profile-card-component-solution/)
 
 ## My process
 
